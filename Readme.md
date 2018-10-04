@@ -8,3 +8,7 @@ I'm running OpenCL on an Intel CPU inside a Docker given here https://github.com
 ```
 apt install ocl-icd-opencl-dev
 ```
+
+### Running above code
+
+Run `make` in the clone directory and then run `./program`
