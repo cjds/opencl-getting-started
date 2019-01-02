@@ -25,3 +25,12 @@ git clone https://github.com/cjds/opencl-getting-started
 ### Running above code
 
 Run `make` in the clone directory and then run `./program`
+
+
+### Other Resources 
+
+Here are a few books that I found online that help with life
+
+  http://cg.elte.hu/~gpgpu/opencl/2014-2015-2/01/OpenCL%20Programming%20Guide.pdf
+
+  https://leonardoaraujosantos.gitbooks.io/opencl/content/chapter1.html
