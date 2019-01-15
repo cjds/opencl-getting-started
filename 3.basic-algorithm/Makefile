@@ -12,3 +12,4 @@ program: $(OBJECTS)
 
 clean:
 	-rm -f program
+	make
