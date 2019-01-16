@@ -40,6 +40,10 @@ class OpenCLException : public std::exception
   std::string string_exception_ = "Internal OpenCL Exception";
 };
 
+/**
+ * @brief Returns a list of OpenCL devices on the system
+ * @throws OpenCLException if no devices are found
+ */
 std::vector<cl::Device> loadDevices()
 {
     std::vector<cl::Platform> all_platforms;
