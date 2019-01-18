@@ -11,5 +11,5 @@ program: $(OBJECTS)
 	g++ -std=c++0x $(OBJECTS) -I/opt/intel/opencl/include -lOpenCL -o $@ -g3
 
 clean:
-	-rm -f $(OBJECTS)
 	-rm -f program
+	make
